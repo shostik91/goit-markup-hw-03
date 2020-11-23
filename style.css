@@ -1,0 +1,249 @@
+* {
+    margin: 0;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    --color-black: #212121;
+    --color-gray: #757575;
+    --color-wight: #FFFFFF;
+    --color-blue: #2196F3;
+    --color-gray-transparent: rgba(255, 255, 255, 0.6);
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    color: var(--color-black);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.nav-list a:hover {
+    color: #2196F3;
+}
+
+.nav-list.studio {
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.14;
+    color: #212121;
+    letter-spacing: 0.02 em;
+}
+
+.studio {
+    color: #212121;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.first {
+    color: #2196F3; 
+}
+
+.studio.first {
+    color:var(--color-blue);
+}
+
+.main-nav a {
+    color: #212121;
+}
+
+.contacts-head a:hover {
+    color: #2196F3;
+}
+
+.contacts-head a {
+    color:#757575;
+
+}
+
+.hero {
+    background: #2F303A;
+    width: 1600px;
+    height: 600px;
+}
+
+.hero-title {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.button {
+    font-family: Roboto;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background: #2196F3;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+}
+
+
+
+.ability h3 {
+    color: #212121;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.ability p {
+    color: #757575;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.ability-list {
+    display: flex;
+}
+
+.gaget-title {
+    width: 376px;
+    height: 42px;
+    left: 612px;
+    top: 969px;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: #212121;
+}
+
+.gagets {
+    display: flex;
+    mix-blend-mode: normal;
+}
+
+.img-gagets {
+    width: 370px;
+    height: 294px;
+}
+
+.our-team {
+    width: 1600px;
+    height: 648px;
+    left: 0px;
+    top: 1449px;
+    background: #F5F4FA;
+}
+
+.team-title {
+    width: 264px;
+    height: 42px;
+    font-size: 36px;
+    line-height: 1.67;
+    color: #212121;
+
+}
+
+.team h3 {
+    font-size: 16px;
+    line-height: 1.19;
+   }
+
+.profession {
+    font-size: 14px;
+    line-height: 1.71;
+    color: #757575;
+    }
+
+.team {
+    display: flex;  
+}
+
+footer {
+    background: #2F303A;
+    width: 1600px;
+    height: 252px;
+    left: 0px;
+    top: 2097px;
+}
+
+footer div {
+    width: 145px;
+    height: 31px;
+    left: 215px;
+    top: 2157px;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.footer-cont:hover, .footer-cont:focus {
+    color: var(--color-blue);
+}
+.footer-cont {
+    font-size: 14px;
+    line-height: 1.67;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Roboto;
+    font-style: normal;
+}
+.adress {
+    color: #FFFFFF;
+    font-size: 14px;
+    line-height: 1.67;
+
+}
+
+/* Стили к портфолио */
+
+.buttom:hover, .buttom:focus {
+    background-color: var(--color-blue);
+    color: var(--color-wight);
+} 
+
+.buttom {
+    font-family: Roboto;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+}
+
+
+.name-progect {
+    font-size: 18px;
+    line-height: 36px;
+}
+
+.progect-what {
+    font-size: 16px;
+    line-height: 1.87;
+    color: #757575;
+    font-weight: 400;
+}
+
+.buttom {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    color: #212121;
+    background: #F5F4FA;
+}
